@@ -4,4 +4,6 @@
     <color name="myPrimaryDarkColor">#0097A7</color>
     <color name="myAccentColor">#CDDC39</color>
 
+    <color name="snacktextColor">#FF0000</color>
+
 </resources>

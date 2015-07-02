@@ -2,15 +2,17 @@ package com.soenaingtun.view;
 
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-
-public class EditTextFloatLabelActivity extends ActionBarActivity {
+/**
+ * Created by SoeNaingTun on 6/25/15.
+ */
+public class EditTextFloatLabelActivity extends AppCompatActivity {
 
     EditText medit_username, medit_password;
     Button mbtn_login;
@@ -31,6 +33,7 @@ public class EditTextFloatLabelActivity extends ActionBarActivity {
                     username_layout.setErrorEnabled(true);
                     username_layout.setError(getString(R.string.username));
                 }
+
             }
         });
     }
